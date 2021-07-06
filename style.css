@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+}
+           /*menu part start here  */
+        .menu-part{
+            display: flex;
+        }
+        .restaurant-name{
+            font-size: 40px;
+            color:orangered;
+            margin: 50px 0px 0px 40px;
+        }
+        .food-gallery{
+            border: 3px dashed blue;
+        }
+
+.our-menu{
+    padding: 40px 0;
+    text-align: right;
+    padding-right: 40px;
+    width: 50%;
+    
+}
+.our-menu ul li a{
+    text-decoration: none;
+}
+.our-menu ul li{
+    display:inline-block;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    }
+            /*menu part end here  */
+
+              /* section one css start here */
+   .top-part{
+       display: flex;
+       padding-bottom: 40px;
+   }
+   .advertise{
+     width: 50%;
+   }
+   .food-girl{
+      width: 50%;
+   }
+.food-girl img{
+    width: 80%;
+}
+.advertise h1{
+    font-size: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: slategrey;
+    margin-left: 40px;
+    padding-top: 25px;
+    
+}
+.advertise h1 span{
+    color: orangered;
+}
+.advertise p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 50px;
+    margin-left: 40px;
+    padding-bottom: 80px;
+    color: darkslategray;
+    font-weight: 400;
+}
+.advertise p span{
+    color: orangered;
+    font-size:22 ;
+    font-weight: 600;
+}
+.button-1{
+    padding: 30px 60px;
+    text-decoration: none;
+    background-image: linear-gradient(blue, lawngreen);
+     border-radius:50px;
+    margin-left: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+                /* section one css end here */
+
+                  /* section two css start here */
+.middle-part{
+    display: flex;
+    padding: 60px 0;
+    background-image: url(img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: l;
+}
+.middle-img{
+width: 50%;
+}
+.about-me{
+    width: 50%;
+    padding: 50px 0;
+   
+}
+.about-me h1{
+    font-size: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: darkolivegreen;
+    margin-left: 30px;
+    padding-bottom: 40px;
+   
+}
+.about-me p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    color: #101010;
+    margin-left: 30px;
+    padding-bottom: 90px;
+    
+}
+             /* section two css end here */
+
+              /* section three css start here */
+.card-part{
+    padding: 50px 0;
+}
+.card-text h1{
+text-align: center;
+padding-bottom: 20px;
+font-size: 58px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color: gray;
+}
+
+.card-text p{
+text-align: center;
+padding-bottom:40px ;
+font-size: 18px;
+font-family: 'Roboto', sans-serif; 
+font-weight: 500;
+color: #101010;
+}
+.card{
+    display: flex;
+}
+.card-new{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    color: darkgoldenrod;
+}
+.card img{
+height: 200px;
+width:  350px;
+display: block;
+margin: 0 auto;
+border-radius: 10px;
+padding-bottom: 20px;
+padding-top: 30px;
+
+}
+
+.card-1{
+    box-shadow: 5px 5px 5px 3px gray;
+    width: 25%;
+   border-radius: 10px;
+    margin-left: 80px;
+}
+.card-2{
+    box-shadow: 5px 5px 5px 3px gray;
+    width: 25%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+.card-3{
+    box-shadow: 5px 5px 5px 3px gray;
+    width: 25%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+  /* section three css end here */
+  
+  .media{
+    margin: 0px 140px;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px 3px gray;
+    font-size: 28px;
+    
+  }
+         /* form section start */
+
+  .reservation{
+       padding: 120px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .reservation h1{
+        font-size: 40px;
+        letter-spacing: 3px;
+        color: #3d2514;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; 
+        margin-bottom: 70px;
+    }
+    .reservation h3{
+     font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    }
+    input{
+    height: 44px;
+    width: 350px;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-left: 10px;
+    color:#101010;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid lightgray;
+      
+    }
+    .button-2{
+        padding: 15px 30px;
+        text-decoration: none;
+        background-image: linear-gradient(red, blue);
+         border-radius:40px;
+         color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        text-align: center;
+      
+     }
+    .form{
+        text-align: center; 
+       
+       
+    }
+          /* form section end here */
+  
+  footer{
+      padding: 40px 0;
+     background-color:darkolivegreen;
+      background-size: cover;
+  }
+  footer h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif; 
+     font-weight: 700;
+     padding-bottom: 30px;
+  }
+  footer h1 span{
+      color: darkorange;
+  }
+  footer p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    color: darkgray;  
+  }
