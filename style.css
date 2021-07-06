@@ -238,14 +238,16 @@ padding-top: 30px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif; 
     border: 1px solid lightgray;
+    margin-bottom: 20px;
       
     }
     .button-2{
+    
         padding: 15px 30px;
         text-decoration: none;
         background-image: linear-gradient(red, blue);
-         border-radius:40px;
-         color: white;
+        border-radius:40px;
+        color: white;
         font-family: 'Roboto', sans-serif;
         font-size: 13px;
         text-align: center;
